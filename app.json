@@ -11,13 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.eastestsexample"
-    },
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -28,9 +22,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "@config-plugins/detox"
-    ],
+    "plugins": ["@config-plugins/detox"],
     "extra": {
       "eas": {
         "projectId": "cce5bd66-f216-46e2-b001-fc43d475f340"
