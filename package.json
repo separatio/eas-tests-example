@@ -7,7 +7,7 @@
     "web": "expo start --web",
     "eas-build-pre-install": "./eas-hooks/eas-build-pre-install.sh",
     "eas-build-on-success": "./eas-hooks/eas-build-on-success.sh",
-    "test": "eas build -p all -e test"
+    "test:android": "eas build -p android -e test"
   },
   "dependencies": {
     "expo": "~48.0.11",
