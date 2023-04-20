@@ -15,16 +15,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.eastestsexample"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.eastestsexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@config-plugins/detox"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cce5bd66-f216-46e2-b001-fc43d475f340"
+      }
     }
   }
 }
